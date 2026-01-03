@@ -11,55 +11,55 @@ Data Cleaning → Feature Engineering → SQL Analysis → Dashboard Visualizati
 
 📂 Dataset Summary
 
-  #Total Records: 3,900
+  #  Total Records: 3,900
 
-  #Total Features: 18
+  #  Total Features: 18
 
-  #Data Type: Retail transaction data
+  #  Data Type: Retail transaction data
 
 Key Data Attributes
 
-  #Customer Demographics: Age, Gender, Location, Subscription Status
+  #  Customer Demographics: Age, Gender, Location, Subscription Status
 
-  #Purchase Details: Item Purchased, Category, Purchase Amount, Season
+  #  Purchase Details: Item Purchased, Category, Purchase Amount, Season
 
-  #Behavioral Metrics: Discounts Applied, Promo Codes, Review Ratings
+  #  Behavioral Metrics: Discounts Applied, Promo Codes, Review Ratings
 
-  #Engagement Indicators: Previous Purchases, Purchase Frequency, Shipping Type
+  #  Engagement Indicators: Previous Purchases, Purchase Frequency, Shipping Type
 
 Data Quality Notes
 
-  #37 missing values identified in the Review Rating column
+  #  37 missing values identified in the Review Rating column
 
-  #Missing ratings were imputed using the median rating of each product category
+  #  Missing ratings were imputed using the median rating of each product category
 
-  #Redundant columns (promo_code_used) were removed after consistency checks 
+  #  Redundant columns (promo_code_used) were removed after consistency checks 
 
 🛠️ Tools & Technologies
 
-  #Python: Pandas, NumPy
+  #  Python: Pandas, NumPy
 
-  #SQL: PostgreSQL / MySQL
+  #  SQL: PostgreSQL / MySQL
 
-  #Jupyter Lab: Data preprocessing and analysis
+  #  Jupyter Lab: Data preprocessing and analysis
 
-  #SQLAlchemy & PyMySQL: Database connectivity
+  #  SQLAlchemy & PyMySQL: Database connectivity
 
-  #Power BI: Interactive dashboard and visualization
+  #  Power BI: Interactive dashboard and visualization
 
 🧹 Data Preparation & Feature Engineering
 
 Key preprocessing steps performed in Python:
 
-  #Standardized column names using snake_case
+  #  Standardized column names using snake_case
 
-  #Created an age_group feature by binning customer ages
+  #  Created an age_group feature by binning customer ages
 
-  #Converted categorical purchase frequency into numerical days (purchase_frequency_days)
+  #  Converted categorical purchase frequency into numerical days (purchase_frequency_days)
 
-  #Cleaned missing values and validated data consistency
+  #  Cleaned missing values and validated data consistency
 
-  #Loaded the cleaned dataset into a SQL database for structured querying 
+  #  Loaded the cleaned dataset into a SQL database for structured querying 
 
 
 📈 SQL Business Analysis
@@ -91,13 +91,13 @@ The following business questions were answered using SQL queries:
 
 An interactive Power BI dashboard was developed to visualize key metrics, including:
 
-  #Total customers and average purchase value
+  #  Total customers and average purchase value
 
-  #Revenue by category and age group
+  #  Revenue by category and age group
 
-  #Subscription distribution
+  #  Subscription distribution
 
-  #Review ratings and shipping preferences
+  #  Review ratings and shipping preferences
 
 The dashboard enables quick executive-level insight and supports data storytelling for stakeholders 
 
@@ -108,26 +108,26 @@ The dashboard enables quick executive-level insight and supports data storytelli
 
 Non-subscribers currently generate higher total revenue, but subscribers show strong engagement potential
 
-  #Loyal customers dominate the dataset, highlighting retention strength
+  #  Loyal customers dominate the dataset, highlighting retention strength
 
-  #Certain products are heavily discount-driven, impacting margin strategy
+  #  Certain products are heavily discount-driven, impacting margin strategy
 
-  #Younger and middle-aged customer groups contribute the highest revenue
+  #  Younger and middle-aged customer groups contribute the highest revenue
 
-  #Express shipping customers tend to spend slightly more per transaction 
+  #  Express shipping customers tend to spend slightly more per transaction 
 
-  #Customer Shopping Behavior Anal…
+  #  Customer Shopping Behavior Anal…
 
 🚀 Business Recommendations
 
-  #Boost Subscriptions: Promote exclusive benefits to increase subscriber conversion
+  #  Boost Subscriptions: Promote exclusive benefits to increase subscriber conversion
 
-  #Loyalty Programs: Reward repeat buyers to strengthen long-term retention
+  #  Loyalty Programs: Reward repeat buyers to strengthen long-term retention
 
-  #Optimize Discounts: Balance discount usage to protect margins
+  #  Optimize Discounts: Balance discount usage to protect margins
 
-  #Product Positioning: Highlight top-rated and best-selling products
+  #  Product Positioning: Highlight top-rated and best-selling products
 
-  #Targeted Marketing: Focus campaigns on high-revenue age groups and express-shipping users 
+  #  Targeted Marketing: Focus campaigns on high-revenue age groups and express-shipping users 
 
-  #Customer Shopping Behavior Anal…
+  #  Customer Shopping Behavior Anal…
