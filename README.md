@@ -1,3 +1,8 @@
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![SQL](https://img.shields.io/badge/SQL-MySQL%20%7C%20PostgreSQL-orange)
+![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow)
+![Status](https://img.shields.io/badge/Status-Completed-success)
+
 # 📊 Customer Shopping Behavior Analysis  
 **SQL | Python | PostgreSQL/MySQL | Power BI**
 
